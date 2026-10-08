@@ -1,7 +1,7 @@
 /* Ukemi Sonification Trainer — service worker
    Cache-first for the app shell; runtime caching for the MediaPipe
    model + wasm so the Live Trainer works offline after first use. */
-const CACHE = 'ukemi-study-v1';
+const CACHE = 'ukemi-study-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
